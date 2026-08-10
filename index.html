@@ -589,47 +589,6 @@ main {
 }
 
 /* ==========================================================================
-   RECOMMENDATIONS
-   ========================================================================== */
-.recommendation-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
-  gap: 16px;
-}
-
-.recommendation-card {
-  margin: 0;
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 20px;
-  background-color: var(--color-surface);
-}
-
-.quote-mark {
-  font-size: 26px;
-  color: var(--color-border);
-  margin-bottom: 4px;
-}
-
-.recommendation-card p:not(.quote-mark) {
-  font-size: 13px;
-  color: var(--color-text);
-  margin-bottom: 16px;
-}
-
-.rec-name {
-  font-size: 13px;
-  font-weight: 600;
-  margin-bottom: 2px !important;
-}
-
-.rec-title {
-  font-size: 11px;
-  color: var(--color-muted);
-  margin-bottom: 0 !important;
-}
-
-/* ==========================================================================
    GITHUB
    ========================================================================== */
 .github-chart {
@@ -965,7 +924,6 @@ main {
             <li><a href="#projects-section">Projects</a></li>
             <li><a href="#experience-section">Experience</a></li>
             <li><a href="#stack-section">Stack</a></li>
-            <li><a href="#recommendations-section">Recommendations</a></li>
             <li><a href="#github-section">GitHub</a></li>
           </ul>
         </nav>
@@ -1099,45 +1057,9 @@ main {
           </ul>
         </div>
       </section>
+      
+<hr class="dotted-divider" aria-hidden="true">
 
-      <hr class="dotted-divider" aria-hidden="true">
-
-      <!-- RECOMMENDATIONS -->
-      <section id="recommendations-section" class="content-section" aria-labelledby="recommendations-heading">
-        <div class="section-header">
-          <h2 id="recommendations-heading"><span class="section-number">03</span> — recommendations</h2>
-          <a href="#recommendations-section" class="section-link">All recommendations &rarr;</a>
-        </div>
-
-        <div class="recommendation-grid">
-          <blockquote class="recommendation-card">
-            <p class="quote-mark" aria-hidden="true">&ldquo;&rdquo;</p>
-            <p>Working with this team was a turning point for our product — technically sharp and easy to collaborate with.</p>
-            <footer>
-              <p class="rec-name">A. Reyes</p>
-              <p class="rec-title">Product Lead, Example Co.</p>
-            </footer>
-          </blockquote>
-          <blockquote class="recommendation-card">
-            <p class="quote-mark" aria-hidden="true">&ldquo;&rdquo;</p>
-            <p>A fantastic professional who consistently delivers on time and communicates clearly throughout.</p>
-            <footer>
-              <p class="rec-name">J. Santos</p>
-              <p class="rec-title">Senior Data Scientist</p>
-            </footer>
-          </blockquote>
-          <blockquote class="recommendation-card">
-            <p class="quote-mark" aria-hidden="true">&ldquo;&rdquo;</p>
-            <p>One of the fastest learners I've mentored, and always brings a thoughtful, product-first mindset.</p>
-            <footer>
-              <p class="rec-name">C. Diaz</p>
-              <p class="rec-title">Integrations Product Manager</p>
-            </footer>
-          </blockquote>
-        </div>
-      </section>
-
-      <hr class="dotted-divider" aria-hidden="true">
 <!-- GITHUB SECTION -->
 <<section id="github-section" class="content-section" aria-labelledby="github-heading">
   <div class="section-header">
